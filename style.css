@@ -9,6 +9,19 @@
 body {
   font-family: sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to right, #11998e, #38ef7d); 
+  background: linear-gradient(to right, #000000d2, #280142); 
   padding: clamp(20px, 12vw, 120px) 10px 10px;
 }
+
+/* C'est pour le menu déroulant */
+
+button {
+  width: 2%;
+}
+
+.ressource {
+  width: 2%;
+  visibility: hidden;
+}
+
+/* la suite du tuto */
